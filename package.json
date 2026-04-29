@@ -1,0 +1,16 @@
+{
+  "name": "breme-digital",
+  "version": "1.1.0",
+  "private": true,
+  "description": "BREME Digital — landing + checkout con Stripe (Vercel serverless)",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "stripe": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
